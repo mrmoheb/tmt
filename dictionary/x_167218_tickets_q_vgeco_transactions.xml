@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="VGECO Transactions" max_length="40" name="x_167218_tickets_q_vgeco_transactions" type="collection">
+        <element label="AccountUser" max_length="40" name="accountuser" type="string"/>
+        <element label="ClosureDateTime" max_length="40" name="closuredatetime" type="glide_date_time"/>
+        <element label="Comments" max_length="40" name="comments" type="journal"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Customer" max_length="40" name="customer" type="string"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="DueDate" max_length="40" name="duedate" type="glide_date_time"/>
+        <element label="EverBeenOnHold" max_length="40" name="everbeenonhold" type="boolean"/>
+        <element label="Notes" max_length="40" name="notes" type="journal"/>
+        <element label="OrderNumber" max_length="40" name="ordernumber" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="SubmittedDate" max_length="40" name="submitteddate" type="glide_date_time"/>
+        <element label="TransactionType" max_length="40" name="transactiontype" type="string"/>
+    </element>
+</database>
